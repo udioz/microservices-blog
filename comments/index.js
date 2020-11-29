@@ -74,5 +74,6 @@ app.post('/events', async (req, res) => {
 });
 
 app.listen(4001, () => {
+    console.log('See if comments image is latest');
     console.log('Listening on 4001');
 })
